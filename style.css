@@ -1,0 +1,191 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #2d6824;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+.wrapper  {
+    width: 840px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: repeat(3,80px);
+    grid-auto-rows: 80px;
+   
+
+   
+}
+
+
+
+.wrapper a div {
+    outline:3px solid white;
+    outline-offset:-2px;
+    height: 80px;
+    width: 70px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+    font-family:"Roboto Regular";
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+
+.red_unit:hover {
+	
+	
+	opacity: 0.6;
+}
+
+.black_unit:hover {
+	
+	opacity: 0.6;;
+}
+.zero:hover {
+    opacity: 0.6;
+}
+
+
+.gameplace {
+    
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    height: 932px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.red_unit {
+    
+    background-color: #fa5252;
+}
+
+.black_unit {
+    
+    background-color: #1a1a1a;
+}
+
+.element_zero {
+    
+    
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+}
+
+div .zero {
+    outline:3px solid white;
+    outline-offset:-2px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-gap:6px;
+    
+}
+
+div .down_place {
+    height: 70px;
+    width: 910px;
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 210px repeat(5,140px);
+    
+    
+}
+
+.one18 {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.even {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.allred {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.allblack {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.odd {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.ninetrent {
+    font-size: 28px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.allred:hover{ 
+    opacity: 0.6;
+}
+.allblack:hover{ 
+    opacity: 0.6;
+}
+
+.highlighted {
+    opacity: 0.1;
+    
+}
+
