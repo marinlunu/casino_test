@@ -109,10 +109,11 @@ div .down_place {
     grid-template-columns: 210px repeat(5,140px);
     
     
+    
 }
 
 .one18 {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
@@ -123,7 +124,7 @@ div .down_place {
 }
 
 .even {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
@@ -134,7 +135,7 @@ div .down_place {
 }
 
 .allred {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
@@ -144,7 +145,7 @@ div .down_place {
     align-content: center;
 }
 .allblack {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
@@ -154,7 +155,7 @@ div .down_place {
     align-content: center;
 }
 .odd {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
@@ -165,7 +166,7 @@ div .down_place {
 }
 
 .ninetrent {
-    font-size: 28px;
+    font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
     outline:3px solid white;
