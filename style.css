@@ -66,7 +66,9 @@ a {
 .gameplace {
     
     display: grid;
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 70px 1fr 70px ;
+    
+
     height: 932px;
     justify-content: center;
     align-content: center;
@@ -106,8 +108,9 @@ div .down_place {
     width: 910px;
     display: grid;
     grid-template-rows: 70px;
-    grid-template-columns: 210px repeat(5,140px);
-    
+    grid-template-columns: 140px repeat(5,140px);
+    justify-content: right;
+    align-content: center;
     
     
 }
