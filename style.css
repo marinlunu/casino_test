@@ -124,7 +124,17 @@ div.up_place {
     align-content: center;
 }
 
-.one18 {
+.universal_bar {
+    font-size: 22px;
+    color:white;
+    font-family:"Roboto Regular";
+    outline:3px solid white;
+    outline-offset:-2px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+/* .one18 {
     font-size: 22px;
     color:white;
     font-family:"Roboto Regular";
@@ -186,7 +196,7 @@ div.up_place {
     display: grid;
     justify-content: center;
     align-content: center;
-}
+} */
 
 
 
