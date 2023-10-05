@@ -124,6 +124,11 @@ div.up_place {
     align-content: center;
 }
 
+div.left_place {
+    display: grid;
+    grid-template-rows: auto;
+}
+
 .universal_bar {
     font-size: 22px;
     color:white;
