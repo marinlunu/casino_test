@@ -67,8 +67,9 @@ a {
     
     display: grid;
     grid-template-columns: 70px 1fr 70px ;
+    grid-template-rows: 70px 240px 70px ;
+   
     
-
     height: 932px;
     justify-content: center;
     align-content: center;
@@ -111,8 +112,16 @@ div .down_place {
     grid-template-columns: 140px repeat(5,140px);
     justify-content: right;
     align-content: center;
-    
-    
+}
+
+div.up_place {
+    height: 70px;
+    width: 840px;
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
 }
 
 .one18 {
